@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Inconsolata:wght@500&family=Nunito+Sans:opsz,wght@6..12,500&family=Poppins:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+#navbar {
+    padding: 20px !important;
+    z-index: 1001;
+    width: 100%;
+        position: fixed !important;
+        left: 0;
+        top: 0;
+}
+.nav-link {
+    font-size: 20px ;
+    color: rgb(193, 161, 75);
+
+}
+.nav-link:hover{
+    color: #064826;
+}
+.nav-link.active {
+    color: #064826 !important;
+}
+
+body {
+    font-family: 'Inconsolata', monospace !important;
+    background-color: #E8E5E5;
+}
+#home {
+    padding: 80px 0;
+}
+#home .btn-success {
+    background-color: #064826 !important;
+        padding: 10px 30px 10px 30px;
+        color: white;
+    }
+    
+    #home .btn-success:hover {
+        background-color: #064826a9 !important;
+    }
+
+h1 {
+    color: rgb(193,161,75);
+}
+p {
+    color: rgb(193,161,75);
+}
+
+/* STRUKTUR KELAS */
+#struktur {
+    padding: 80px 0;
+    background-color: white;
+}
+.card {
+    transition: .4s;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #064826 !important
+}
+
+.card-body {
+    background-color: #E8E5E5;
+    color: rgb(193, 161, 75) !important
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 14px 56px -11px #064826
+}
+
+.card .badge {
+    background-color: #064826 !important;
+    color: rgb(193,161,75)
+}
+
+#struktur .btn-success {
+    background-color: #064826 !important;
+    padding: 10px 30px 10px 30px;
+    color: white;
+}
+#struktur .btn-success:hover {
+    background-color: #064826a9 !important;
+}
+
+/* QUOTES */
+#quotes {
+    padding: 80px 0;
+}
+h2 {
+    color: #064826;
+}
+
+/* Gallery */
+#gallery {
+    padding: 80px 0;
+    background-color: white;
+}
+footer {
+    padding: 30px;
+}

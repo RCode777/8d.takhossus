@@ -1,0 +1,28 @@
+#banner {
+    padding: 80px 0;
+}
+.card {
+    transition: .4s;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #064826 !important
+}
+
+.card-body {
+    background-color: #E8E5E5;
+    color: rgb(193, 161, 75) !important
+}
+
+.card .badge {
+    background-color: #064826 !important;
+    color: rgb(193, 161, 75)
+}
+.btn-success {
+    background-color: #064826 !important;
+    padding: 10px 40px 10px 40px !important;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #064826a9 !important;
+}
